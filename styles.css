@@ -1,0 +1,132 @@
+.header-flotante {
+    position: fixed;
+    width: 100%;
+    z-index: 10;
+}
+
+.container-header {
+    background-color: rgb(83, 83, 83);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.container-logo {
+    display: flex;
+    align-items: center;
+}
+
+.container-logo p {
+    font-size: 1.2rem;
+    color: white;
+}
+
+.navegador-header {
+    display: flex;
+    align-items: center;
+}
+
+.lista-nav {
+    display: flex;
+    list-style: none;
+    gap: 1rem;
+}
+
+.elemento-nav a {
+    text-decoration: none;
+    color: rgb(218, 216, 216);
+}
+
+.elemento-nav:first-child a {
+    color: rgb(255, 255, 255);
+}
+
+.elemento-nav:last-child a {
+    color: rgb(19, 179, 19);
+}
+
+#logo {
+    height: 7rem;
+}
+
+/* Esto es el header */
+
+/* Aqui comienza el main */
+
+.carousel-item img {
+    height: 50rem;
+    filter: brightness(0.5);
+}
+
+.texto-carrusel {
+    position: absolute;
+    text-align: justify;
+    width: 30%;
+    left: 60%;
+    top: 50%;
+    color: white;
+    z-index: 1;
+}
+
+.texto-carrusel h1 {
+    text-align: end;
+}
+
+.botones-carrusel {
+    text-align: end;
+}
+
+.card img {
+    width: 100%;
+    object-fit: cover;
+}
+
+.contendor-oradores {
+    margin-top: 1rem;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+}
+
+.subcontenedor-oradores {
+    display: flex;
+    text-align: justify;
+    width: 50%;
+    gap: 2rem;
+}
+
+.spans{
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    justify-content: start;
+    gap: 1rem;
+    width: 10%;
+}
+
+.js{
+    background-color: orange;
+    border-radius: 10%;
+    text-align: center;
+}
+
+.react{
+    background-color: rgb(17, 180, 180);
+    color: white;
+    border-radius: 10%;
+}
+
+.negocios{
+    background-color: rgb(109, 108, 108);
+    color: white;
+    border-radius: 10%;
+    text-align: center;
+}
+
+.start{
+    background-color: rgb(235, 48, 48);
+    color: white;
+    border-radius: 10%;
+    text-align: center;
+}
