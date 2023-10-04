@@ -2,131 +2,186 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Tp integrador- Codo a codo</title>
-    <link rel="stylesheet" href="styles.css">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tp integrador- Codo a codo</title>
+  <link rel="stylesheet" href="styles.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
 </head>
 
 <body>
 
-    <header class="header-flotante">
-        <div class="container-header">
-        <div class="container-logo">
+  <header class="header-flotante">
+    <div class="container-header">
+      <div class="container-logo">
         <img id="logo" src="img\codoacodo.png" alt="">
         <p><b>Conf Bs As</b></p>
-        </div>
-        
-        <nav class="navegador-header">
-           <ul class="lista-nav">
-             <li class="elemento-nav">
-                <a href="#">La Conferencia</a>
-             </li>
-             <li class="elemento-nav">
-                <a href="#">Los Oradores</a>
-             </li>
-             <li class="elemento-nav">
-                <a href="#">El lugar y la fecha</a>
-             </li>
-             <li class="elemento-nav">
-                <a href="#">Conviertete en orador</a>
-             </li>
-             <li class="elemento-nav">
-                <a href="#">Comprar Tickets</a>
-             </li>
-           </ul>
-        </nav>
+      </div>
+
+      <nav class="navegador-header">
+        <ul class="lista-nav">
+          <li class="elemento-nav">
+            <a href="#carouselExampleSlidesOnly">La Conferencia</a>
+          </li>
+          <li class="elemento-nav">
+            <a href="#contendor-oradores">Los Oradores</a>
+          </li>
+          <li class="elemento-nav">
+            <a href="#contenedor-ciudad">El lugar y la fecha</a>
+          </li>
+          <li class="elemento-nav">
+            <a href="#contenedor-form">Conviertete en orador</a>
+          </li>
+          <li class="elemento-nav">
+            <a href="#">Comprar Tickets</a>
+          </li>
+        </ul>
+      </nav>
 
     </div>
 
-    </header>
+  </header>
 
-    <main>
+  <main>
 
-        <section id="carouselExample" class="carousel slide">
-            <div class="texto-carrusel">
-                <h1>Conf Bs As</h1>
-                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolorem hic cupiditate laudantium, quam inventore provident soluta, quis alias iste harum ab, labore unde odio deserunt vitae voluptatibus aut atque id laborum nisi molestias in incidunt assumenda illo? A nobis, ducimus enim, consequatur magni magnam, et amet quas nemo illum non!
-                </p>
-                <div class="botones-carrusel">
-                    <button type="button" class="btn btn-outline-light">Quiero ser orador</button>
-                <button type="button" class="btn btn-success">Comprar Tickets</button>
-               </div>
+    <section  id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+      <div class="texto-carrusel">
+        <h1>Conf Bs As</h1>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolorem hic cupiditate laudantium, quam inventore
+          provident soluta, quis alias iste harum ab, labore unde odio deserunt vitae voluptatibus aut atque id laborum
+          nisi molestias in incidunt assumenda illo? A nobis, ducimus enim, consequatur magni magnam, et amet quas nemo
+          illum non!
+        </p>
+        <div class="botones-carrusel">
+          <button type="button" class="btn btn-outline-light">Quiero ser orador</button>
+          <button type="button" class="btn btn-success">Comprar Tickets</button>
+        </div>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="img\ba1.jpg" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="img\ba2.jpg" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="img\ba3.jpg" class="d-block w-100" alt="...">
+        </div>
+      </div>
+    </section>
+
+    <section class="contendor-oradores" id="contendor-oradores">
+      <p>CONOCE A LOS</p>
+      <h2>ORADORES</h2>
+      <div class="subcontenedor-oradores">
+        <div class="card mb-3">
+          <img src="img\steve.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <div class="spans">
+              <span class="js"><b>Javascript</b> </span>
+              <span class="react"><b>React</b></span>
             </div>
-            <div class="carousel-inner">
-              <div class="carousel-item active">
-                <img src="img\ba1.jpg" class="d-block w-100" alt="...">
-              </div>
-              <div class="carousel-item">
-                <img src="img\ba2.jpg" class="d-block w-100" alt="...">
-              </div>
-              <div class="carousel-item">
-                <img src="img\ba3.jpg" class="d-block w-100" alt="...">
-              </div>
+            <h5 class="card-title">Stever Jobs</h5>
+            <p class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Hic soluta beatae maxime sed. Debitis ut, laborum cupiditate eveniet voluptatum quod?</p>
+          </div>
+        </div>
+        <div class="card mb-3">
+          <img src="img\bill.jpg" class="card-img-top" alt="...">
+
+          <div class="card-body">
+            <div class="spans">
+              <span class="js"><b>Javascript</b> </span>
+              <span class="react"><b>React</b></span>
             </div>
-            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
-              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-              <span class="visually-hidden">Previous</span>
-            </button>
-            <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
-              <span class="carousel-control-next-icon" aria-hidden="true"></span>
-              <span class="visually-hidden">Next</span>
-            </button>
-          </section>
+            <h5 class="card-title">Bill Gates</h5>
+            <p class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Hic soluta beatae maxime sed. Debitis ut, laborum cupiditate eveniet voluptatum quod?</p>
+          </div>
+        </div>
+        <div class="card mb-3">
+          <img src="img\ada.jpeg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <div class="spans">
+              <span class="negocios"><b>Negocios</b> </span>
+              <span class="start"><b>Startups</b></span>
+            </div>
+            <h5 class="card-title">Ada Lovelace</h5>
+            <p class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Hic soluta beatae maxime sed. Debitis ut, laborum cupiditate eveniet voluptatum quod?</p>
+          </div>
+        </div>
+      </div>
+    </section>
 
-          <section class="contendor-oradores">
-            <p>CONOCE A LOS</p>
-            <h2>ORADORES</h2>
-             <div class="subcontenedor-oradores">
-                <div class="card mb-3">
-                    <img src="img\steve.jpg" class="card-img-top" alt="...">
-                    <div class="card-body">
-                      <div class="spans">
-                      <span class="js"><b>Javascript</b> </span>
-                      <span class="react"><b>React</b></span>
-                    </div>
-                      <h5 class="card-title">Stever Jobs</h5>
-                      <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                    </div>
-                </div>
-                <div class="card mb-3">
-                    <img src="img\bill.jpg" class="card-img-top" alt="...">
+    <section class="contenedor-ciudad" id="contenedor-ciudad">
 
-                    <div class="card-body">
-                      <div class="spans">
-                        <span class="js"><b>Javascript</b> </span>
-                        <span class="react"><b>React</b></span>
-                      </div>
-                      <h5 class="card-title">Bill Gates</h5>
-                      <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                    </div>
-                </div>
-                <div class="card mb-3">
-                    <img src="img\ada.jpeg" class="card-img-top" alt="...">
-                    <div class="card-body">
-                      <div class="spans">
-                        <span class="negocios"><b>Negocios</b> </span>
-                        <span class="start"><b>Startups</b></span>
-                      </div>
-                      <h5 class="card-title">Ada Lovelace</h5>
-                      <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                    </div>
-                </div>
-             </div>
-          </section>
+      <img src="img\honolulu.jpg" alt="">
 
-    </main>
+      <div class="subcontenedor-ciudad">
+        <div class="textos">
+          <h2>Bs As - Octubre</h2>
+          <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Itaque molestias ipsa, harum neque dignissimos
+            est mollitia provident repellendus ducimus id suscipit autem repellat fugiat temporibus optio pariatur
+            repudiandae, facere earum doloremque. Quis tempora voluptas eligendi fugit dignissimos corrupti ex! Ipsum
+            qui placeat accusamus quam laborum quae accusantium officiis at. Possimus temporibus aliquid, tempora sed
+            corporis doloribus minus rem quo ab laudantium corrupti qui nostrum blanditiis illum, animi quisquam tempore
+            autem sint aliquam voluptatem excepturi perferendis. Sapiente pariatur vitae facilis ipsam!</p>
+          <button type="button" class="btn btn-outline-light">Conocé más</button>
+        </div>
+      </div>
 
-    <footer>
+    </section>
 
-    </footer>
+    <section class="contenedor-form" id="contenedor-form">
+      <div>
+        <p>CONVIÉRTETE EN UN</p>
+        <h2>ORADOR</h2>
+        <p>Anotate como orador para una <u>charla ignite</u>. Cuentanos de que quieres hablar!</p>
+
+        <div class="subcontenedor-form">
+          <form id="form-oradores" action="#">
+           
+            <div class="inputs">
+            <input type="text" placeholder="Nombre" id="nombre">
+
+            <input type="text" placeholder="Apellido" id="apellido">
+            </div>
+
+            <div class="textarea">
+            <textarea name="tema" cols="126" rows="4" placeholder="Sobre que quieres hablar?"></textarea>
+           </div>
+
+            <p class="text">Recuerda indicar un titulo para tu charla</p>
+
+            <input type="submit" id="boton-form">
+          </form>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <footer>
+
+    <div class="contenedor-footer">
+          <div class=" subcontenedor-footer">
+              <ul class="elementos-footer">
+                  <li><a href="#">Preguntas frecuentes</a></li>
+                  <li><a href="#">Contactanos</a></li>
+                  <li><a href="#">Prensa</a></li>
+                  <li><a href="#">Conferencias</a></li>
+                  <li><a href="#">Términos y Condiciones</a></li>
+                  <li><a href="#">Política de Privacidad</a></li>
+                  <li><a href="#">Estudiantes</a></li>
+              </ul>
+          </div>
+    </div>
+
+  </footer>
 
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
-        crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+    crossorigin="anonymous"></script>
 </body>
 
 </html>

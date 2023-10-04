@@ -45,6 +45,11 @@
     color: rgb(19, 179, 19);
 }
 
+a:hover{
+    filter: brightness(200%);
+    transition: .5s;
+}
+
 #logo {
     height: 7rem;
 }
@@ -83,6 +88,7 @@
 
 .contendor-oradores {
     margin-top: 1rem;
+    margin-bottom: 1rem;
     display: flex;
     flex-direction: column;
     text-align: center;
@@ -109,12 +115,14 @@
     background-color: orange;
     border-radius: 10%;
     text-align: center;
+    padding: .1rem;
 }
 
 .react{
     background-color: rgb(17, 180, 180);
     color: white;
     border-radius: 10%;
+    padding: .1rem;
 }
 
 .negocios{
@@ -122,6 +130,7 @@
     color: white;
     border-radius: 10%;
     text-align: center;
+    padding: .1rem;
 }
 
 .start{
@@ -129,4 +138,100 @@
     color: white;
     border-radius: 10%;
     text-align: center;
+    padding: .1rem;
+}
+
+.contenedor-ciudad{
+    display: flex;
+    gap: 0.1rem;
+}
+
+.subcontenedor-ciudad{
+    text-align: justify;
+    line-height: 2;
+    background-color: #282828;
+    color: white;
+}
+
+.textos{
+    width: 95%;
+    margin-top: 1rem;
+    margin-left: 1rem;
+}
+
+.contenedor-ciudad img{
+    width: 50%;
+}
+
+.contenedor-form{
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+    text-align: center;
+}
+
+.subcontenedor-form{
+    display: flex;
+    flex-direction: column;
+}
+
+.inputs{
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    width: 50%;
+    margin: auto;
+}
+
+#form-oradores{
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+}
+
+#nombre,#apellido{
+    width: 50%;
+    margin-bottom: 1rem;
+}
+
+.text{
+    margin-right: 41rem;
+}
+
+#boton-form{
+    width: 50%;
+    margin: auto;
+    background-color: rgb(151, 223, 84);
+    color: white;
+    border-style: none;
+    padding: .2rem;
+}
+
+/* Aqui finaliza el main */
+
+/* Aqui comienza el footer */
+
+
+footer{
+    background-color:#1e516e;
+    padding: 1.5rem;
+}
+
+.contenedor-footer{
+    display: flex;
+    
+}
+
+.elementos-footer{
+    display: flex;
+    list-style: none;
+    justify-content: space-around;
+}
+
+.subcontenedor-footer{
+ width: 100%;
+}
+
+.elementos-footer a{
+    color: white;
+    text-decoration: none;
 }
